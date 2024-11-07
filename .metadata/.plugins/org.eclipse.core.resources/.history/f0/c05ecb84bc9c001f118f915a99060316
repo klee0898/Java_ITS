@@ -1,0 +1,28 @@
+package demo1;
+
+public class ArrayEx2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+	
+		        double[] v1 = {0.2, 0.4, 0.6};
+		        int[] v2 = {50, 100, 150};
+		        String[] v3 = {"hello", "world", "java"};
+
+		        // 원하는 요소 출력
+		        System.out.println(v1[0]); // 0.2
+		        System.out.println(v2[1]); // 100
+		        System.out.println(v3[2]); // hello
+		    }
+	
+//			아래와 같이 출력되도록 배열 만들어줘 자바코드로	
+//		System.out.println(v1[0]); 0.2 
+//		System.out.println(v2[1]); 100 
+//		System.out.println(v3[2]); hello
+		
+		
+	
+		
+}

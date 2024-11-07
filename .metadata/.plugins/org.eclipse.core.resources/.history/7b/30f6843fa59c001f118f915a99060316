@@ -1,0 +1,27 @@
+package review;
+
+import java.util.Scanner;
+
+public class Electric_Water {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("--- Menu ---");
+		System.out.println("1. 가정용(liter당 50원)");
+		System.out.println("2. 상업용(liter당 45원)");
+		System.out.println("3. 공업용(liter당 30원)");
+		System.out.println("---  ---");
+		System.out.println("메뉴코드입력");
+		
+		Scanner sc = new Scanner(System.in);
+//		메뉴선택, 변수 code
+		
+//		사용량입력받기, 변수 usage
+		
+		System.out.println("사용량입력하세요 > ");
+		int usage = sc.nextInt();
+
+
+	}
+
+}

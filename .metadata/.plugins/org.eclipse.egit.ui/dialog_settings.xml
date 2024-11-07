@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="EGit.KnownHosts">
+		<item value="bitbucket.org"/>
+		<item value="git.eclipse.org"/>
+		<item value="github.com"/>
+	</list>
+	<list key="RepositorySelectionPage.UsedUris">
+		<item value="https://github.com/klee0898/its_java.git"/>
+		<item value="file://D:\ROOM\Java"/>
+		<item value="file:///D:\ROOM\Java"/>
+		<item value="https://github.com/klee0898/java.git"/>
+	</list>
+	<list key="CommitDialog.authorValues">
+		<item value="3002-17 &lt;3002-17@DESKTOP-HR5QGM8&gt;"/>
+	</list>
+	<list key="CommitDialog.committerValues">
+		<item value="3002-17 &lt;3002-17@DESKTOP-HR5QGM8&gt;"/>
+	</list>
+	<section name="org.eclipse.egit.ui.internal.staging.StagingView">
+		<item key="MAIN_SASH_FORM_ORIENTATION_VERTICAL" value="false"/>
+		<item key="HORIZONTAL_SASH_FORM_WEIGHT" value="500,500"/>
+		<item key="STAGING_SASH_FORM_WEIGHT" value="500,500"/>
+		<item key="sortItemState" value="false"/>
+	</section>
+	<section name="GitCommitMessageComponent">
+	</section>
+</section>

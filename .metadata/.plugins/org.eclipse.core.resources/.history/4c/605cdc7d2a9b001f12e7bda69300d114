@@ -1,0 +1,16 @@
+package demo1;
+
+public class StringEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String str = "Hello Java";
+		String str2 = new 	String("Hello Java");
+		
+		System.out.println("str = " + str + ", \nstr2 = " +str2);
+		
+		System.out.println(str.length());
+
+	}
+
+}

@@ -1,0 +1,35 @@
+package practicer_review;
+
+public class WaterUsageCalculator {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	Scanner scanner = new Scanner(System.in);
+
+	        // 각 용도별 단가 설정
+	        double householdPrice = 50;
+	        double commercialPrice = 45;
+	        double industrialPrice = 30;
+
+	        // 사용량 입력
+	        System.out.print("가정용 사용량 (리터): ");
+	        double householdUsage = scanner.nextDouble();
+	        System.out.print("상업용 사용량 (리터): ");
+	        double commercialUsage = scanner.nextDouble();
+	        System.out.print("공업용 사용량 (리터): ");
+	        double industrialUsage = scanner.nextDouble();
+
+	        // 요금 계산
+	        double householdCost = householdUsage * householdPrice;
+	        double commercialCost = commercialUsage * commercialPrice;
+	        double industrialCost = industrialUsage * industrialPrice;
+	        double totalCost = householdCost + commercialCost + industrialCost;
+
+	        // 총 사용량과 총 요금 출력
+	        System.out.println("총 사용량: " + (householdUsage + commercialUsage + industrialUsage) + " 리터");
+	        System.out.println("총 요금: " + totalCost + " 원");
+		
+
+	}
+
+}
