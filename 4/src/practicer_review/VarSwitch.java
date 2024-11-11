@@ -23,8 +23,10 @@ public class VarSwitch {
 			if(num != 0) {
 				System.out.println("num = " + num);
 			}else { 
+				System.out.println("bye bye ~");
+				break;
+			}
 		}
-
 	}
-
+}
 
