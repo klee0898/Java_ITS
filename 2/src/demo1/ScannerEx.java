@@ -33,8 +33,6 @@ public class ScannerEx {
 		float num2 = sc.nextFloat();
 		System.out.println(num2);
 		
-		
-
 	}
 
 }
