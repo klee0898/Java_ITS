@@ -1,4 +1,4 @@
-package demo_02;
+package demo2;
 
 class AB{
 	int abc(int x, int y) {
@@ -11,7 +11,7 @@ class AB{
 	}
 }
 
-public class Method04 {
+public class Method4 {
 	public static void main(String[] args) {
 		AB ab = new AB();
 		System.out.println(ab.abc(12, 10));

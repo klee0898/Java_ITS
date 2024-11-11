@@ -1,8 +1,8 @@
-package demo_01;
+package demo;
 
 import java.util.Scanner;
 
-public class ArrayEx02 {
+public class ArrayEx2 {
 	public static void main(String[] args) {
 		// 극장 좌석 만들기
 		String[][] seats = new String[10][10];
@@ -52,4 +52,5 @@ public class ArrayEx02 {
 			System.out.println();
 		}
 	}
+
 }

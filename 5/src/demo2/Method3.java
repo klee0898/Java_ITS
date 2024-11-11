@@ -1,4 +1,4 @@
-package demo_02;
+package demo2;
 
 class DD{
 	void abc() {
@@ -22,7 +22,7 @@ class Gugudan{
 	}
 }
 
-public class Method03 {
+public class Method3 {
 	public static void main(String[] args) {
 		Gugudan g = new Gugudan();
 		g.print(3);

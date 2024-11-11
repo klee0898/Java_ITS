@@ -1,4 +1,5 @@
-package demo_02;
+package demo2;
+
 
 class A {
 	// 메소드의 선언 위치 : 클래스 블럭{} 내부
@@ -33,7 +34,8 @@ class B{
 	}
 }
 
-public class Method01 {
+
+public class Method1 {
 	public static void main(String[] args) {
 		String str = new String("Hello World!!");
 		// 다른 클래스에 있는 메소드를 호출하려면
@@ -56,3 +58,4 @@ public class Method01 {
 		b.foo();
 	}
 }
+

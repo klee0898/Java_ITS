@@ -1,4 +1,4 @@
-package demo_02;
+package demo2;
 
 class AA{
 	int n = 200; // 전역변수(멤버변수)
@@ -45,7 +45,7 @@ class BB{
 }
 
 
-public class Method02 {
+public class Method2 {
 	public static void main(String[] args) {
 		AA aa = new AA();
 		aa.abc(100);

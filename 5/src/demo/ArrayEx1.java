@@ -1,6 +1,6 @@
-package demo_01;
+package demo;
 
-public class ArrayEx01 {
+public class ArrayEx1 {
 	public static void main(String[] args) {
 		int[] x = {1,2,3};
 		int[] y = {4,5,6};
@@ -43,3 +43,5 @@ public class ArrayEx01 {
 		}
 	}
 }
+
+

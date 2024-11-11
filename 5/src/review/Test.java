@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Test {
 	public static void main(String[] args) {
 		
-		Scanner sc = new Scanner(System.in); 
+Scanner sc = new Scanner(System.in); 
 		
 		String[] seat = {"□","□","□","□","□"};
 		
@@ -55,4 +55,5 @@ public class Test {
 		
 		System.out.println("프로그램 종료~");
 	}
+
 }
