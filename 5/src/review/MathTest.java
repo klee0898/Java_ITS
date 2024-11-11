@@ -10,6 +10,11 @@ public class MathTest {
 		// 원면적
 		double area = 5*5*Math.PI;
 		System.out.println("원면적 : " + area);
+		
+		// 원둘레
+		double radius = 2*Math.PI*5;
+		System.out.println("원둘레 : " + radius);
+		System.out.printf("원둘레 : %.3f",radius);
 
 	}
 
