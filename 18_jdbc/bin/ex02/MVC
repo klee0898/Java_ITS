@@ -1,0 +1,16 @@
+//DTO (Data Transfer Object)
+//: 데이터의 이동(전송)을 위해 사용되는 객체
+//DAO (Data Access Object)
+//: 데이터베이스 접근 및 데이터 처리 (CRUD)
+
+// MVC (Model-View-Controller) 패턴은 
+// 소프트웨어 설계에서 사용되는 패턴으로,
+// 애플리케이션의 구조를 세 가지 역할로 나누어 
+// 복잡성을 줄이고, 코드의 유지보수성과 재사용성을 높임
+
+
+
+// MVC : Model(DAO, DTO), View, Controller
+// Model : 데이터와 비즈니스로직(핵심기능) 관리
+// View : 사용자에게 데이터를 화면(UI)으로 보여주는 기능
+// Controller : 사용자로 부터 요청을 받고 처리하는 기능

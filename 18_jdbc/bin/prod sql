@@ -1,0 +1,35 @@
+create table movie(
+    MOVIE_NUM NUMBER primary key, 
+    M_NAME varchar2(50) not null,  
+    SUMMARY varchar2(1000) not null,  
+    RUN_TIME varchar2(30) not null,  
+    RELEASE varchar2(10) not null, 
+    DIRECTOR varchar2(30) not null,  
+    CAST varchar2(200) not null,  
+    BOX_OFFICE NUMBER  not null
+);
+
+create sequence moive_seq;
+
+select * from movie;
+create table prod(
+    pnum number primary key,
+    pname varchar2(50)
+);
+
+create sequence prod_seq;
+
+select * from prod;
+
+
+create table book{
+    bon number primary key, -- unique not null
+    title varchar2(50) not null,
+    author varchar2(30)not null,
+    pub_year varchar2(20) not null,
+    price number not null
+);
+
+create sequence book_seq;
+
+create table 
